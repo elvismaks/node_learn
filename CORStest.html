@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>讀取接口示例</title>
+</head>
+
+<body>
+
+    <script>
+        fetch("http://localhost:3000/")
+            .then(response => response.json())
+            .then(result => console.log(result))
+    </script>
+
+</body>
+
+</html>
